@@ -28,14 +28,14 @@ export default function ChatWidget() {
               try {
                 if (window.embeddedservice_bootstrap?.isInitialized) return;
 
-                embeddedservice_bootstrap.settings.language = 'en_US';
+                embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
                 embeddedservice_bootstrap.init(
-                  '00Dg5000002kBx3',
-                  'SFtroop',
-                  'https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWSFtroop1767146249892',
-                  {
-                    scrt2URL: 'https://orgfarm-d4d03d3f06-dev-ed.develop.my.salesforce-scrt.com'
-                  }
+                    '00Dg5000002kBx3',
+                    'Web_Agent',
+                    'https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWWebAgent1767442807450',
+                    {
+                        scrt2URL: 'https://orgfarm-d4d03d3f06-dev-ed.develop.my.salesforce-scrt.com'
+                    }
                 );
               } catch (err) {
                 console.error('Embedded Messaging error:', err);
@@ -46,7 +46,7 @@ export default function ChatWidget() {
       />
 
       <Script
-        src="https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWSFtroop1767146249892/assets/js/bootstrap.min.js"
+        src="https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWWebAgent1767442807450/assets/js/bootstrap.min.js"
         strategy="afterInteractive"
         onLoad={() => {
           if (typeof window !== 'undefined' && typeof window.initEmbeddedMessaging === 'function') {
