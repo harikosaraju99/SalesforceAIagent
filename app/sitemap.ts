@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { BLOG_POSTS } from '@/constants'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://69684d38d8414c3c04ed4318--thriving-sopapillas-7632be.netlify.app'
+  const baseUrl = 'https://ifirmaiagent.netlify.app/'
   
   const routes = [
     '',
