@@ -69,7 +69,7 @@ export const COMPANY_CONFIG = {
   
   // Site Metadata
   site: {
-    url: 'https://69684d38d8414c3c04ed4318--thriving-sopapillas-7632be.netlify.app',
+    url: 'https://ifirmaiagent.netlify.app',
     defaultTitle: 'SalesforceTroopAi | AI-Powered Salesforce Solutions',
     defaultDescription: 'Transform your business with AI-powered Salesforce solutions. Get 30% more productivity and 2X ROI with our expert implementation.',
   },
