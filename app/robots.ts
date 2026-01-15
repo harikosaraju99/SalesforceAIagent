@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://69684d38d8414c3c04ed4318--thriving-sopapillas-7632be.netlify.app/sitemap.xml',
+    sitemap: 'https://ifirmaiagent.netlify.app/sitemap.xml',
   }
 }
 
