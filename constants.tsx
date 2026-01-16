@@ -25,7 +25,7 @@ import { Service, NavItem, Testimonial, TeamMember, BlogPost, FAQItem } from './
 
 export const COMPANY_CONFIG = {
   // Company Information
-  name: 'Hari's ifirmAi',
+  name: "Hari's ifirmAi",
   nameShort: 'ifirmAi',
   tagline: 'AI-Powered Salesforce Solutions',
   description: 'Providing modern businesses with world-class, AI-driven Salesforce implementation and consulting services.',
