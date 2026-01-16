@@ -30,11 +30,11 @@ export default function ChatWidget() {
 
                 embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
                 embeddedservice_bootstrap.init(
-                    '00Dg5000002kBx3',
-                    'Web_Agent',
-                    'https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWWebAgent1767442807450',
+                    '00Dfj00000HUZ9r',
+                    'ifirm_AI_Web',
+                    'https://orgfarm-7e16ec457c-dev-ed.develop.my.site.com/ESWifirmAIWeb1768531088968',
                     {
-                        scrt2URL: 'https://orgfarm-d4d03d3f06-dev-ed.develop.my.salesforce-scrt.com'
+                        scrt2URL: 'https://orgfarm-7e16ec457c-dev-ed.develop.my.salesforce-scrt.com'
                     }
                 );
               } catch (err) {
@@ -46,7 +46,7 @@ export default function ChatWidget() {
       />
 
       <Script
-        src="https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWWebAgent1767442807450/assets/js/bootstrap.min.js"
+        src="https://orgfarm-7e16ec457c-dev-ed.develop.my.site.com/ESWifirmAIWeb1768531088968/assets/js/bootstrap.min.js"
         strategy="afterInteractive"
         onLoad={() => {
           if (typeof window !== 'undefined' && typeof window.initEmbeddedMessaging === 'function') {
